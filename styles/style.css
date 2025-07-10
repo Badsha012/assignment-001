@@ -160,3 +160,159 @@
       padding: 30px;
       display: inline-block;
     }
+/* Section style */
+ .contact-section {
+      background-color: #f3f6fd;
+      padding: 60px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .contact-left {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .contact-left h2 {
+      font-size: 48px;
+      color: #000;
+      margin: 0;
+    }
+
+    .contact-right {
+      flex: 1;
+      min-width: 300px;
+      background-color: transparent;
+    }
+
+    .contact-right label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+      color: #333;
+    }
+
+    .contact-right input,
+    .contact-right textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    .contact-right textarea {
+      height: 100px;
+      resize: vertical;
+    }
+
+    .contact-right button {
+      background-color: #4f46e5;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-right button:hover {
+      background-color: #4338ca;
+    }
+    /* footer section */
+    
+
+    footer {
+      background-color: #f9f9ff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .footer-logo {
+      font-size: 48px;
+      font-weight: bold;
+      color: #4f46e5;
+      margin-bottom: 16px;
+    }
+
+    .footer-subtitle {
+      color: #888;
+      max-width: 600px;
+      margin: 0 auto 24px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .footer-links a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #777;
+      font-size: 14px;
+      transition: color 0.3s ease;
+    }
+
+    .footer-links a:hover {
+      color: #4f46e5;
+    }
+    
+
+    /* Section: Reviews */
+    .reviews-section {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .reviews-section h2 {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    .review-cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .review-card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      text-align: left;
+    }
+
+    .stars {
+      color: #ffc107;
+      margin-bottom: 10px;
+    }
+
+    .review-card h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .review-card p {
+      margin: 10px 0;
+      font-size: 14px;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+    }
+
+    .reviewer img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
