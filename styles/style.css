@@ -1,0 +1,120 @@
+/* Navar */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      font-family: Arial, sans-serif;
+      height: 100%;
+    }
+
+    /* Navbar styling */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px; 
+      background-image: url('../Assets/Hero-bg.png'); /* Replace with your background image */
+      background-color: #f0f0f0;
+    }
+
+    .navbar .logo {
+      font-weight: bold;
+      color: #3b00ff;
+      font-size: 24px;
+    }
+
+    .navbar .signup-btn {
+      padding: 10px 20px;
+      background-color: #3b00ff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    /* Banner Section */
+    .banner {
+      height: 90vh;
+      background-image: url('../Assets/Hero-bg.png'); /* Replace with your background image */
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .banner h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #111;
+    }
+
+    .banner .focus-btn {
+      padding: 12px 24px;
+      background-color: #3b00ff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    /* Action */
+ 
+
+    .action-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f5f7ff;
+      padding: 40px 60px;
+      border-radius: 12px;
+      margin: 40px;
+    }
+
+    .action-left {
+      max-width: 50%;
+    }
+
+    .action-left h2 {
+      font-size: 32px;
+      color: #2e2e2e;
+    }
+
+    .action-left p {
+      color: #6f6f7b;
+      margin: 15px 0;
+    }
+
+    .action-left button {
+      background-color: #5b3df5;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .action-right img {
+      width: 300px;
+      border-radius: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .action-section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .action-left, .action-right {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+
