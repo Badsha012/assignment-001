@@ -117,4 +117,46 @@
         margin-bottom: 20px;
       }
     }
+/* Section */
+  
 
+    .section {
+      background-color: #f4f6ff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      color: #4f46e5;
+    }
+
+    .stat h3 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .stat p {
+      font-size: 14px;
+      color: #555;
+      margin-top: 8px;
+    }
+
+    .box {
+      background-color: #e0e7ff;
+      border-radius: 20px;
+      padding: 30px;
+      display: inline-block;
+    }
