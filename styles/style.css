@@ -1,3 +1,19 @@
+
+/* open scan */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+
+
 /* Navar */
 
 * {
@@ -10,6 +26,7 @@ body,
 html {
     font-family: Arial, sans-serif;
     height: 100%;
+    background-color: #f3f6fd
 }
 
 /* Navbar styling */
@@ -18,20 +35,20 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-image: url('../Assets/Hero-bg.png');
+     background-image: url('../Assets/Hero-bg.png'); 
     /* Replace with your background image */
-    background-color: #f0f0f0;
+    background-color: #FFFFFF;
 }
 
 .navbar .logo {
     font-weight: bold;
     color: #4E47FF;
-    font-size: 34px;
+    font-size: 40px;
 }
 
 .navbar .signup-btn {
     padding: 10px 20px;
-    background-color: #3b00ff;
+    background-color: #4E47FF;
     color: white;
     border: none;
     border-radius: 8px;
@@ -41,9 +58,9 @@ html {
 /* Banner Section */
 .banner {
     height: 90vh;
-    background-image: url('../Assets/Hero-bg.png');
+     background-image: url('../Assets/Hero-bg.png'); 
     /* Replace with your background image */
-    background-color: #f0f0f0;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,20 +70,21 @@ html {
 }
 
 .banner h1 {
-    font-size: 36px;
+    font-size: 65px;
     margin-bottom: 20px;
-    color: #111;
+    color: #252432;
 }
 
 .banner .focus-btn {
     padding: 12px 24px;
-    background-color: #3b00ff;
-    color: white;
+    background-color: #4E47FF;
+    color: #FFFFFF;
     border: none;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
 }
+/* Nav bar section end */
 
 /* Action */
 
@@ -75,7 +93,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f5f7ff;
+    background-color: #f3f6fd;
     padding: 40px 60px;
     border-radius: 12px;
     margin: 40px;
@@ -127,8 +145,10 @@ html {
 
 
 .section {
-    background-color: #f4f6ff;
-    padding: 40px 20px;
+    background-color: #f3f6fd;
+    padding: 30px;
+    /* border-radius: 20px; */
+    /* margin: 40px; */
     text-align: center;
 }
 
@@ -141,7 +161,7 @@ html {
 .stats {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
@@ -162,9 +182,11 @@ html {
 
 .box {
     background-color: #e0e7ff;
-    border-radius: 20px;
-    padding: 30px;
+    border-radius: 24px;
+    padding:30px;
     display: inline-block;
+    /* height: 120px; */
+    /* width: 80px;  */
 }
 
 /* Section style */
@@ -236,7 +258,7 @@ html {
 
 
 footer {
-    background-color: #f9f9ff;
+    background-color: #FFFFFF;
     text-align: center;
     padding: 40px 20px;
 }
