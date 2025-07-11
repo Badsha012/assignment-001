@@ -56,7 +56,7 @@ html {
 
 /* Banner Section */
 .banner {
-    height: 60vh;
+    height: 50vh;
      background-image: url('../Assets/Hero-bg.png'); 
     /* Replace with your background image */
     background-color: #FFFFFF;
